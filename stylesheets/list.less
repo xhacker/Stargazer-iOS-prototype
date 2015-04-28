@@ -1,0 +1,59 @@
+@import "base.less";
+
+.TableView {
+	height: 568px - 64px;
+	overflow: scroll;
+	margin: 0;
+
+	& > li {
+		padding: 10px 12px;
+		border-bottom: 0.5px solid #c7c7c7;
+
+		> .row {
+			margin-bottom: 6px;
+			h2 {
+				font-size: 17px;
+				font-weight: 500;
+				float: left;
+			}
+			.language {
+				float: left;
+				padding: 1px 2px;
+				border-radius: 2px;
+				margin: 2px 0 0 8px;
+				min-width: 16px;
+				text-align: center;
+				&.objc {
+					border: 1px solid #4891fc;
+					color: #4891fc;
+				}
+				&.js {
+					border: 1px solid #FECB2E;
+					color: #FECB2E;
+				}
+				&.css {
+					border: 1px solid #563F7A;
+					color: #563F7A;
+				}
+				&.html {
+					border: 1px solid #E24C2D;
+					color: #E24C2D;
+				}
+			}
+			.stars {
+				float: right;
+				margin-top: 2px;
+				font-size: 15px;
+				color: #ffb515;
+			}
+		}
+		.tags {
+			margin-top: 6px;
+		}
+		p {
+			font-size: 15px;
+			line-height: 18px;
+			color: #999;
+		}
+	}
+}
