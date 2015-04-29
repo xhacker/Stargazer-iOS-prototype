@@ -7,7 +7,6 @@
 
 	& > li {
 		padding: 10px 12px;
-		border-bottom: 0.5px solid #c7c7c7;
 
 		> .row {
 			margin-bottom: 6px;
@@ -15,12 +14,13 @@
 				font-size: 17px;
 				font-weight: 500;
 				float: left;
+				margin-right: 7px;
 			}
 			.language {
 				float: left;
 				padding: 1px 2px;
 				border-radius: 2px;
-				margin: 2px 0 0 8px;
+				margin: 2px 5px 0 0;
 				min-width: 16px;
 				text-align: center;
 				&.objc {
@@ -47,8 +47,16 @@
 			.stars {
 				float: right;
 				margin-top: 2px;
+				padding-right: 14px;
 				font-size: 15px;
-				color: #ffb515;
+				color: #8E8E8E;
+
+				background: url("../images/arrow-right.png") no-repeat 48px 1.5px;
+				background-size: 8px 13px;
+
+				.star {
+					margin-left: 2px;
+				}
 			}
 		}
 		.tags {
@@ -63,7 +71,11 @@
 		p {
 			font-size: 15px;
 			line-height: 18px;
-			color: #999;
+			color: #909090;
 		}
 	}
+}
+
+hr {
+    margin-left: 12px;
 }
