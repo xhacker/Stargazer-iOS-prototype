@@ -83,6 +83,37 @@ body {
 	}
 }
 
+.TabBar {
+	position: absolute;
+	height: 49px;
+	width: 100%;
+	bottom: 0;
+	background-color: #F7F7F8;
+	border-top: 0.5px solid #B2B2B2;
+
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;
+
+		img {
+			margin-top: 3px;
+		}
+
+		p {
+			width: 100%;
+			margin-top: 1px;
+			font-size: 10px;
+			color: #929292;
+		}
+	}
+	li.active {
+		p {
+			color: #4A90E2;
+		}
+	}
+}
+
 .tags {
 	li {
 		float: left;
